@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img{/* company logo*/
-    background: url('../image/logo3.png') ;
+    background: url('../image/logosf.jpg') ;
 	width:110px;
 	height:100px;
     margin: 10px 15px 10px 0;
@@ -92,11 +92,37 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
     .container .jumbotron {/*company img*/
-      background: url("../image/library_homepage.jpg") ;
+      background: url("../image/library.jpg");
       height: 595px;
       box-shadow: 0 0 50px black;
       border: 2px solid grey;
     }
+
+    .clone-header{
+        float: left;
+    }
+    #description {
+        margin-left: 350px;
+        margin-top: 50px;
+        text-transform: capitalize;
+        color: whitesmoke;
+    }
+    /* #para{
+        /* margin-left: 65px; 
+        margin-top: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } */
+    /* .para-info{
+        width: 100%;
+        margin-left: 5%;
+        
+    } */
+    /*Writers*/
+    .writer-info{
+        padding-top: 100px;
+
+    }
+/*End Writers*/
 }
 
  /***** Medium Devices Only *****/
@@ -108,21 +134,51 @@ body {
         margin: 5px 10px 5px 0;
     }
     .container .jumbotron {/*company img*/
-        background: url("../image/library_homepage.jpg ") ;
+        background: url("../image/library.jpg") ;
         height: 595px;
         box-shadow: 0 0 50px black;
         border: 2px solid grey;
       }
- }
 
+    .clone-header{
+        float: left;
+    }
+    #description {
+        margin-left: 300px;
+        margin-top: 50px;
+        text-transform: capitalize;
+        color: whitesmoke;
+    }
+    /*Writers*/
+    .writer-info{
+        padding-top: 100px;
+
+    }
+    /*End Writers*/
+}
 /***** Small Devices Only *****/
 @media (min-width:768px) and (max-width:991px){
     .container .jumbotron {/*company img*/
-        background: url("../image/library_homepage.jpg ")  ;
+        background: url("../image/library.jpg")  ;
         height: 595px;
         box-shadow: 0 0 50px black;
         border: 2px solid grey;
       }
+    .clone-header{
+        float: left;
+    }
+    #description {
+        margin-left: 300px;
+        margin-top: 50px;
+        text-transform: capitalize;
+        color: whitesmoke;
+    }
+    /*Writers*/
+    .writer-info{
+        padding-top: 100px;
+
+    }
+    /*End Writers*/
 }
 
 /***** Extra Small Devices Only *****/
@@ -150,7 +206,7 @@ body {
         margin-right: 5px;
     }
     .container .jumbotron {
-        background: url("../image/library_homepage.jpg ")  ;
+        background: url("../image/library.jpg")  ;
         margin-top: 30px;
         padding: 0;
 
@@ -178,7 +234,7 @@ body {
      }
 
     #menu-tile, #specials-tile, #map-tile {
-        width: 360px;
+        width: 60%;
         margin: 0 auto 15px;
     }
     
@@ -194,10 +250,17 @@ body {
         width: 50%;
     }
   /* End Footer */
+
+    #description {
+        margin-left: 5%;
+        margin-top: 50px;
+        text-transform: capitalize;
+        color: whitesmoke;
+    }
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
+@media (max-width: 300px) {
     /* Header */
     .navbar-brand h1 { /* Restaurant name */
       padding-top: 5px;
@@ -207,10 +270,15 @@ body {
     
     /* Home page */
     #menu-tile, #specials-tile, #map-tile {
-      width: 280px;
+      width: 100%;
       margin: 0 auto 15px;
     }
-
+    #description {
+        margin-left: 5%;
+        margin-top: 50px;
+        text-transform: capitalize;
+        color: whitesmoke;
+    }
 }
 /* END HEADER */
 
@@ -228,12 +296,13 @@ body {
     box-shadow: 0 1px 5px 1px #cccccc;
 }
   
-#menu-tile {
-    background: url('../image/bg6.jpeg') no-repeat;
+.menu-tile {
+    background: url('../image/bg1.jpg') no-repeat;
     background-position: center;
 }
-#specials-tile {
-    background: url('../image/bg1.jpg') no-repeat;
+
+.specials-tile {
+    background: url('../image/bg6.jpeg') no-repeat;
     background-position: center;
 }
   
@@ -281,3 +350,78 @@ body {
     margin-top: 25px;
   }
   /* END FOOTER */
+
+/* START STORE PAGE */
+#font-style {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.img-size{
+    width: 100%;
+    height: 100%;
+}
+/* END STORE PAGE */
+/*BOOKS*/
+.book-box>p{
+    
+    width:210px;
+    height: 280px;
+    margin-top: 15px;
+    margin-left: 5%;
+    box-shadow: 0 0 50px black;
+    border: 2px solid grey;
+    
+}
+/* .clone-header{
+    float: left;
+} */
+#info-part{
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 2.9em;
+    margin-bottom: 20px;
+}
+/* #description {
+    margin-left: 300px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    color: whitesmoke;
+} */
+#padd{
+    padding-bottom: 20px;
+}
+#buy-key{
+    background-color: darkkhaki;
+    color:black;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+#para{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para-info{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+/*END OF BOOKS*/
+
+
+/*About*/
+.text-pos{
+    text-align: center; 
+    margin-top: 10%;
+    font-family:  BlinkMacSystemFont;
+    font-size: large;
+    margin-bottom: 80px;
+}
+#text-siz{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+/*End About*/
